@@ -1,0 +1,369 @@
+body{
+    background-color: #EAAC8B;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.pageContent{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.firstBlock{
+    position: relative;
+}
+
+
+/* HEADER */
+header{
+    padding: 0 140px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_bar{
+    display: flex;
+}
+
+.header_navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-right: 50px;
+}
+
+.header_navLinks > li > a{
+    text-decoration: none;
+    color: #446381;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.header_bar_getStarted{
+    width: 180px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #4499D9, #7367BE);
+    font-weight: 500;
+}
+
+/* FIRST MAINBLOCK TEXTCONTENT*/
+.firstBlock_mainBlock{
+    padding: 0 140px;
+    display: flex;
+    justify-content: space-between;
+    height: 750px;
+    align-items: center;
+}
+
+.mainBlock_textContent_firstHeading{
+    display: flex;
+    align-items: center;
+    color: #446381;
+}
+
+.mainBlock_textContent_firstHeading > span{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.mainBlock_textContent_firstHeading > img{
+    margin-left: 30px;
+}
+
+.mainBlock_textContent_secongHeading{
+    margin-top: 24px;
+    color: #EB8382;
+    font-weight: 700;
+    width: 475px;
+    font-size: 68px;
+    line-height: 75px;
+}
+
+.mainBlock_textContent_secongHeading > span{
+    color: #446381;
+}
+
+.mainBlock_textContent_text{
+    margin-top: 30px;
+    color: #826F8C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    width: 518px;
+}
+
+.mainBlock_textContent, .secondBlock_textContent > div + a {
+    margin-top: 30px;
+}
+
+/* FIRST MAINBLOCK PHOTOCONTENT */
+.mainBlock_photoContent{
+    position: relative;
+}
+
+.mainBlock_photoContent_box{
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    padding: 15px;
+
+}
+
+.mainBlock_photoContent_boxFiller{
+    opacity: 0.6;
+    z-index: -10;
+    position: absolute;
+    left: -10px;
+    width: 240px;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px; 
+}
+
+.box_heading{
+    font-weight: 500;
+    width: 100px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #446381;
+}
+
+.box_price{
+    margin: 5px 0 4px 0;
+    color: #EB8382;
+    width: 700;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.box_review{
+    display: flex;
+    align-items: center;
+}
+
+.box_review_rating{
+    display: flex;
+}
+
+.box_review_ratingResult{
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    color: #446381;
+}
+
+.mainBlock_photoContent_box2{
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    bottom: -10px;
+    right: -120px;
+    padding: 15px;
+    width: 210px;
+    height: 60px;
+}
+
+.mainBlock_photoContent_box2 > .photoContent_box_firstPart{
+    order: 2;
+}
+
+/* BACKGROUNDS */
+.firstBlock_backround{
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+
+/* SECOND BLOCK */
+
+.secongBlock{
+    margin-top: 90px;
+    padding: 0 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* THIRD BLOCK */
+
+.thirdBlock{
+    height: 688px;
+    position: relative;
+    margin-top: 90px;
+    padding: 0 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thirdBlock_backround{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* PLAN BLOCK */
+
+.planBlock{
+    padding: 0 140px;
+    margin-top: 50px;
+}
+
+.planBlock_firstHeading{
+    align-items: center;
+    color: #446381;
+    text-align: center;
+}
+
+.planBlock_secongHeading{
+    text-align: center;
+    margin-top: 24px;
+    color: #EB8382;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 75px;
+}
+
+/* PLANLIST */
+.planBlock_planList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* PLANS */
+.planBlock_planList_plan{
+    box-sizing: border-box;
+    height: 566px;
+    width: 360px;
+    padding: 36px 47px 47px 47px;
+    background-color: #FBDACF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.planList_heading{
+    color: #446381;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.planList_price{
+    margin-top: 34px;
+    color: #EB8382;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.planList_price > span{
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.planBlock_planList_plan > ul{
+    list-style: none;
+    margin: 26px 0 0 0;
+    padding: 0;
+}
+
+.planBlock_planList_plan > ul > li{
+    display: flex;
+    align-items: center;
+}
+
+.planBlock_planList_plan > ul > li > span{ 
+    font-size: 18px;
+    color: #826F8C;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+
+.planBlock_planList_plan > ul > li > img{
+    margin-right: 13px;
+}
+
+.planBlock_planList_plan > ul > li + li{
+    margin-top: 30px;
+}
+
+.planBlock_SelectPlan{
+    width: 100%;
+    margin-top: auto;
+    background-color: #09143C;
+}
+
+.planBlock_planList_chosenPlan{
+    height: 606px;
+    color: white;
+}
+
+.planBlock_planList_chosenPlan > .planList_price{
+    color: #EB8382;
+}
+
+footer{
+    margin-top: 73px;
+    height: 110px;
+    border-top: 2px solid #816F8C;
+    padding: 0 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > span{
+    color: #826F8C;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+footer > ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+footer > ul > li{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > ul > li> a{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+footer > ul > li + li{
+    margin-left: 18px;
+}
